@@ -1,0 +1,80 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53, 49, 49);
+    color: white;
+    
+    position: relative;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+}
+html, body, div {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    }
+
+
+
+    .img-container {
+        width: 100%;
+        height: 600px;
+        position: relative;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        z-index: 1;
+        
+      }
+      .img-container .img-to-fit {
+        flex: 1;
+        height: 100%;
+      }
+
+      /* SECOND-SECTION */
+      .learn-links {
+          display: flex;
+          justify-content: space-around;
+      }
+
+      .starship-link {
+          font-size: 30px;
+          color: white;
+      }
+
+      .btn-link {
+        font-size: 20px;
+    }
+
+    .carousel-index-btn {
+        height: 40px;
+        display: inline-block;
+        background-color: rgb(104, 104, 109);
+        color: white;
+        
+        
+    }
+
+    .colored-section {
+        background-color: rgb(104, 104, 109);
+        margin-top: -1;
+    }
+
+    .center-text {
+        text-align: center;
+        background-color: white;
+    }
